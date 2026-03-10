@@ -1,0 +1,29 @@
+<!-- Updating values of existing object key -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var student = {
+            "sname" : "Khushi",
+            "sage" : 18,
+            "sbranch" : "CSE"
+        }
+
+        console.log(student)
+        student.sname = "Arya"
+        console.log(student)
+        student["sage"] = 21;
+        console.log(student)
+        let key = "sbranch"
+        student[key] = "CSIT"
+        console.log(student)
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
