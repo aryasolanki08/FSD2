@@ -1,0 +1,10 @@
+J7. Write one json string with date property and print date in indian standard time while 
+clicking on button (yyyy-mm-dd).
+J8. Consider below object and fetch value using for of loop and for in loop.
+J9. Write a JSON object which contains array of 3 objects. Each object contains two propertys
+name and age,now sort an array by age in descending order. Print name and age in descending
+order on console
+
+n2. Initalize two variable and increment both the variables each time and display the addition
+of both variables at interval of 1 second
+n3. Write code to increase the font size at the interval of 50ms.

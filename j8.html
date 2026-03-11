@@ -1,0 +1,28 @@
+<!-- Solution for J8 question -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        a = {
+            "FSD":[{"Topic":"HTML","Course":"Beginner","Content":["tags","table","form"]},{"Topic":"CSS","course":"Beginner","Content":["tags","table","form"]}]
+        }
+
+        for (x in a.FSD){
+            for (y in a.FSD[x]){
+                document.write(a.FSD[x][y]+"<br>")
+            }
+        }
+
+        for(x1 of a.FSD){
+            document.write(x1.Topic+"<br>")
+        }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
