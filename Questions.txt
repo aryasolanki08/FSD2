@@ -7,4 +7,44 @@ order on console
 
 n2. Initalize two variable and increment both the variables each time and display the addition
 of both variables at interval of 1 second
-n3. Write code to increase the font size at the interval of 50ms.
+n3. Write code to increase the font size at the interval of 50ms and it should stop increasing when the font size reach to 50px this 
+task should be performed when you click on increase button.
+
+n4. Write code to perform the following task 1) Add three buttons (inc,dec,stop) 2) in inc - maxSize = 200px
+dec - minSize = 20px , default - 50px , stop button to stop increasing or decreasing the font. 
+interval = 100ms
+
+fs2. Read data from file and arrange that data and ascending order .
+
+fs3. Write data to file, appending data to file, and reading the file using callback.
+
+fs4. Write node js script to write an array of object with propertys cricketers name and its number in a file 
+named cricketers.txt then read the file and display the object on console.
+
+fs5. Create JSON object which contains array of objects calcualte perimeter of square and perimeter of circle 
+by using side value and diameter value respectively.Write object as well as perimeter values in shape.txt file.
+
+fs6. Write nodejs to perform below task 
+i) Write below object in f2.txt file 
+ii) Read data from the same file and perform following task
+    a) Addition of a and b
+    b) Subtraction of second element of c and b(must be a positive number).
+    c) Multiplication of elements of c.
+iii) Add the output of addition, Subtraction and Multiplication in f2.txt file.
+
+fs8. Write a node js script to copy content of one file to another file.Data should be fetch from source.txt
+and insert to destination.txt. And read data from destination file at the end.Perform all this task 
+asynchonusly.
+
+fs10. Write a node js program to create a file named exam.txt containing the inital text exam attempt then
+it should add 3 more lines 
+1) Entry 1 : Pass
+2) Entry 2: Fail
+3) Entry 3 : Pass
+after writing the program must read the file and count how many times the word Pass appears and if
+the word pass appears 3 or more times the program should earease the content exam.txt . 
+
+fs11. Write a node js to write the text "you are creating a file" to help.txt after that append the text
+"you are appending a data to same help.txt file" after that read the file and print content on console.
+After finshing read operation Copy the content of help.txt to help2.txt file. After finsihing copy operation
+print the line "Thanks for using this program" on console. 
