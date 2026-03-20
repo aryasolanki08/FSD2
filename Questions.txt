@@ -48,3 +48,48 @@ fs11. Write a node js to write the text "you are creating a file" to help.txt af
 "you are appending a data to same help.txt file" after that read the file and print content on console.
 After finshing read operation Copy the content of help.txt to help2.txt file. After finsihing copy operation
 print the line "Thanks for using this program" on console. 
+
+pm2. Write node js that perform the following operation's using path module and asynchonus file system
+module 1) From a given existing file path extract the directory name using the path module.
+2) Create the extracted directory inside an existing folder using fs module
+3) extract the file name from a given path using path module.
+4) create that file inside the newly created directory and write some data into it.
+5) copy the content of this file to another file.
+6) Delete the orignal file after copying the content.
+
+e3. Write a node js program using the events module to simulate the sequence of events 
+1) when a connection events occurs print connection succesfully and trigger data events.
+2) when the data recived event occurs print data recived succesfully.
+3) Finally print thanks at the end of exit window.
+
+e4. Write a node js program using the events module to simulate the sequence of events.
+1) Regitring multiple event listener for different events(myevent1, myevent2)
+2) Removing a specific event listener for myevent2.
+3) Removing all listener associated with myevent1.
+4) triggering events and observing which listener execute.
+
+e5. Write node js script to create 2 listener for a common event.
+Print no of events associated with and emmitter.
+Remove one of the listener and call remaining listener again also print number of remainging listenes
+at the end remove all listener and count the listener again.
+
+e6. Write node js script to handle events as ask below 
+1) check the radius is negative or not?
+if negative then display radius must be positive else calcualte the perimeter of circle.
+2)check the radius is negative or not?
+if negative then display side must be positive else calcualte the perimeter of square.
+
+e7. Write node js script to handle event to write data,append data and then read the file.display data in console.
+Do all the operation using async fs module.
+
+e8. Write node js script using event handling to perform following task
+1) Create a folder named abc.
+2) Create a file named xyz.txt and write data into it.
+3) Append data to that file and print message data appended succesfully.
+4) Read the content of the file and print on console.
+5) Copy content xyz.txt to pqr.txt
+6) Delete the file xyz.txt and print the message all operations performed succesfully.
+
+Do all this operations using sync file module system.
+
+
